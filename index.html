@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BirdBook</title>
+
+    <link rel="stylesheet" href="./login/styleLogin.css">
+</head>
+<body style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+
+    <img src="./BirdBook.png" alt="logo" height="80px">
+
+    <h1>Hola, ¡Bienvenido!</h1>
+    <h1>Somos BirdBook, una pagina web para</h1>
+    <h1 style="margin-top: -20px;">administrar tus tareas de manera eficiente</h1>
+
+    <button onclick="botonLogin()" style="border: 1px solid black; margin-top: 50px;">Iniciar Sesión</button>
+    <button onclick="botonRegister()" style="border: 1px solid black; margin-top: 10px;">Registrarse</button>
+
+    <script>
+        function botonLogin(){
+            window.location.href = './login/login.html'
+        }
+
+        function botonRegister(){
+            window.location.href = './register/register.html'
+        }
+    </script>
+    
+</body>
+</html>
